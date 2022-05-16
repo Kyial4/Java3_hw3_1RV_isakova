@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         number.add("996703333644");
         number.add("996703333644");
         number.add("996703333644");
+        NumberAdapter adapter =new NumberAdapter(number);
+        recyclerView.setAdapter(adapter);
 
     }
 }

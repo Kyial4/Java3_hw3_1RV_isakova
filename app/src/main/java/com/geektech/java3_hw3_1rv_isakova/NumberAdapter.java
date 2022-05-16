@@ -18,7 +18,8 @@ public class NumberAdapter extends RecyclerView.Adapter<NumberViewHolder> {
     @NonNull
     @Override
     public NumberViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new NumberViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_number,parent,false));
+        return new NumberViewHolder
+                (LayoutInflater.from(parent.getContext()).inflate(R.layout.item_number,parent,false));
     }
 
     @Override
